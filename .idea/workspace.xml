@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="734dfc42-357d-4c4c-8d22-1a838f5b9cef" name="Default Changelist" comment="" />
+    <list default="true" id="734dfc42-357d-4c4c-8d22-1a838f5b9cef" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AreaCalculator/com/company/Area.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AreaCalculator/com/company/Area.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AreaCalculator/com/company/AreaofSquare.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AreaCalculator/com/company/AreaofSquare.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Area.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Area.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/AreaofSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AreaofSquare.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,10 +23,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1Q8Vogaw9iNWYjx6YI8hvOhzIpH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Navya.Kaliki\apps\AreaCalculator\src" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -77,11 +96,25 @@
       <option name="presentableId" value="Default" />
       <updated>1567152386496</updated>
       <workItem from="1567152389453" duration="5003000" />
-      <workItem from="1567464800596" duration="66000" />
+      <workItem from="1567464800596" duration="19033000" />
+      <workItem from="1567939079958" duration="3720000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

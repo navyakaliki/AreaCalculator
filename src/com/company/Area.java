@@ -16,25 +16,20 @@ public class Area {
             try {
                 switch (choice) {
                     case "1":
-                        System.out.println("enter the length of each side");
-                        int side = Integer.parseInt(scanner.nextLine());
-                        double areaSq = side * side;
-                        System.out.println(areaSq);
+                        int side = getSide(scanner);
+                        AreaofSquare areaSq=new AreaofSquare(side);
+                        System.out.println(areaSq.getArea());
                         break;
                     case "2":
-                        System.out.println("enter the Base of the triangle");
-                        int base = Integer.parseInt(scanner.nextLine());
-                        System.out.println("enter the height of the triangle");
-                        int height = Integer.parseInt(scanner.nextLine());
-                        double bandh = (base * height);
-                        double areaTri = (bandh / 2);
-                        System.out.println(areaTri);
+                        int base = getBase(scanner);
+                        int height = getHeight(scanner);
+                        AreaofTriangle areaTri=new AreaofTriangle(base,height);
+                        System.out.println(areaTri.getAreatri());
                         break;
                     case "3":
-                        System.out.println("Enter the radius of the circle");
-                        int rad = Integer.parseInt(scanner.nextLine());
-                        double areaCir = (Math.PI * (rad * rad));
-                        System.out.printf("are of the circle is %2f", areaCir);
+                        int rad = getRad(scanner);
+                        AreaofCircle areCircle= new AreaofCircle(rad);
+                        System.out.println(areCircle.getAreaofCircle());
                         break;
                 }
             }catch (NumberFormatException e){
@@ -49,4 +44,25 @@ public class Area {
         } while (true);
 
     }
+
+    private static int getRad(Scanner scanner) {
+        System.out.println("Enter the radius of the circle");
+        return Integer.parseInt(scanner.nextLine());
+    }
+
+    private static int getHeight(Scanner scanner) {
+        System.out.println("enter the height of the triangle");
+        return Integer.parseInt(scanner.nextLine());
+    }
+
+    private static int getBase(Scanner scanner) {
+        System.out.println("enter the Base of the triangle");
+        return Integer.parseInt(scanner.nextLine());
+    }
+
+    private static int getSide(Scanner scanner) {
+        System.out.println("enter the side of the square");
+        return Integer.parseInt(scanner.nextLine());
+    }
+
 }
