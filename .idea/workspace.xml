@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="734dfc42-357d-4c4c-8d22-1a838f5b9cef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AreaCalculator/com/company/Area.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AreaCalculator/com/company/Area.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/AreaCalculator/com/company/AreaofSquare.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AreaCalculator/com/company/AreaofSquare.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Area.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Area.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/AreaofSquare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/AreaofSquare.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -97,7 +91,7 @@
       <updated>1567152386496</updated>
       <workItem from="1567152389453" duration="5003000" />
       <workItem from="1567464800596" duration="19033000" />
-      <workItem from="1567939079958" duration="3720000" />
+      <workItem from="1567939079958" duration="4321000" />
     </task>
     <servers />
   </component>
