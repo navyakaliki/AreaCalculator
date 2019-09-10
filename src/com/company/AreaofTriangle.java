@@ -1,6 +1,6 @@
 package com.company;
 
-public class AreaofTriangle {
+public class AreaofTriangle implements Shape {
     int base;
     int height;
     double areaTri;
@@ -10,8 +10,10 @@ public class AreaofTriangle {
         this.height = height;
         this.areaTri = (base*height)/2;
     }
-    public double getAreatri() {
+
+
+    @Override
+    public double getArea() {
         return areaTri;
     }
-
 }

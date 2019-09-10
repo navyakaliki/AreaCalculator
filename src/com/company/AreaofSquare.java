@@ -1,10 +1,11 @@
 package com.company;
 
-public class AreaofSquare {
+public class AreaofSquare implements Shape {
 
     int side;
     double area;
 
+     @Override
     public double getArea() {
         return area;
     }

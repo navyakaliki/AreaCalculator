@@ -16,20 +16,20 @@ public class Area {
             try {
                 switch (choice) {
                     case "1":
-                        int side = getSide(scanner);
+                        int side = getMeasurement(scanner, "side of the square");
                         AreaofSquare areaSq=new AreaofSquare(side);
                         System.out.println(areaSq.getArea());
                         break;
                     case "2":
-                        int base = getBase(scanner);
-                        int height = getHeight(scanner);
+                        int base = getMeasurement(scanner, "the base of the Triangle");
+                        int height = getMeasurement(scanner, "the height of the Triangle");
                         AreaofTriangle areaTri=new AreaofTriangle(base,height);
-                        System.out.println(areaTri.getAreatri());
+                        System.out.println(areaTri.getArea());
                         break;
                     case "3":
-                        int rad = getRad(scanner);
+                        int rad = getMeasurement(scanner, "the radius of the circle");
                         AreaofCircle areCircle= new AreaofCircle(rad);
-                        System.out.println(areCircle.getAreaofCircle());
+                        System.out.println(areCircle.getArea());
                         break;
                 }
             }catch (NumberFormatException e){
@@ -45,24 +45,10 @@ public class Area {
 
     }
 
-    private static int getRad(Scanner scanner) {
-        System.out.println("Enter the radius of the circle");
+    private static int getMeasurement(Scanner scanner, String msg) {
+        System.out.printf("Enter ", msg);
         return Integer.parseInt(scanner.nextLine());
     }
 
-    private static int getHeight(Scanner scanner) {
-        System.out.println("enter the height of the triangle");
-        return Integer.parseInt(scanner.nextLine());
-    }
-
-    private static int getBase(Scanner scanner) {
-        System.out.println("enter the Base of the triangle");
-        return Integer.parseInt(scanner.nextLine());
-    }
-
-    private static int getSide(Scanner scanner) {
-        System.out.println("enter the side of the square");
-        return Integer.parseInt(scanner.nextLine());
-    }
 
 }

@@ -1,6 +1,6 @@
 package com.company;
 
-public class AreaofCircle {
+public class AreaofCircle implements Shape {
     int radius;
     double areaofCircle;
     public AreaofCircle(int radius) {
@@ -8,7 +8,10 @@ public class AreaofCircle {
         this.areaofCircle=Math.PI*(radius*radius);
     }
 
-    public double getAreaofCircle(){
-                return areaofCircle;
+
+
+    @Override
+    public double getArea() {
+        return areaofCircle;
     }
 }
